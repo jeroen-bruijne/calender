@@ -2,7 +2,7 @@
 
 		include 'DBconnection.php';
 
-		$sql = "SELECT * FROM calendar";
+		$sql = "SELECT * FROM events";
 					
 							
 		// voer de query uit
@@ -33,8 +33,8 @@
 			
 			echo '<tr>';
 
-			echo '<td>' . $row['name'] . '</td>';
-			echo '<td>' . $row['datum'] . '</td>';
+			echo '<td>' . $row['title'] . '</td>';
+			echo '<td>' . $row['date'] . '</td>';
 			echo '<td>' ;
 			echo '</td>';
 			echo '</tr>';	

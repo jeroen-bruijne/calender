@@ -1,7 +1,7 @@
 <?php
 
 	$mysql_host = 'localhost';
-    $mysql_db = 'calendar';
+    $mysql_db = 'test';
     $mysql_user = 'root';
     $mysql_pass = '';
 

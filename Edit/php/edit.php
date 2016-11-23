@@ -5,12 +5,12 @@
 	$newname = $_POST['nname'];
 	$newdate = $_POST['ndate'];
 
-	$query = "UPDATE calendar SET name='$newname', datum='$newdate' WHERE name='$oldname'";
+	$query = "UPDATE events SET name='$newname', datum='$newdate' WHERE name='$oldname'";
 
 	mysqli_query($link, $query)
 	or die('Error querying database failed m8.');
 
-	Echo 'Birthday successfully edited';
+	header("Location: ../../Calendar/index.php");
 
 	mysqli_close($link);
 ?>
