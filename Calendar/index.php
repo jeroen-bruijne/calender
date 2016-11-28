@@ -4,11 +4,13 @@
 <title>Calendar</title>
 <link type="text/css" rel="stylesheet" href="stylo.css"/>
 <ul class="menu">
+<li class="menu" style="float:left"><img src="../logo.png" alt="logo" href="index.php" /></li>
 <li class="menu"><a href="index.php">Calendar</a></li>
 <li class="menu"><a href="../Edit/form.html">Add Birthday</a></li>
 <li class="menu"><a href="../Edit/edit.php">Edit Birthday</a></li>
 <li class="menu"><a href="../Edit/delete.php">Delete Birthday</a></li>
 </ul>
+
 <script src="jquery.min.js"></script>
 </head>
 <body>
